@@ -6,6 +6,7 @@
 //
 import SwiftUI
 import Foundation
+import Firebase
 struct ContentView: View {
     @State var Email: String = ""
     @State var password: String = ""
@@ -31,7 +32,7 @@ struct ContentView: View {
                                 .bold()
                                 .foregroundStyle(.white)
                                 .font(.system(size: 25))
-                        }
+                                    }
                 }
 
                 Spacer()
